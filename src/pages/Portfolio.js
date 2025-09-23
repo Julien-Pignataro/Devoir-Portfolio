@@ -42,7 +42,7 @@ function Portfolio() {
             <div className="card-body text-center">
               <h5 className="card-title">Fresh Food</h5>
               <p className="card-text">Site de vente de produits frais en ligne</p>
-              <a href="#" className="btn btn-primary">Voir le site</a>
+              <a href="/" className="btn btn-primary">Voir le site</a>
             </div>
             <div className="card-footer text-center text-muted small">
               Site réalisé avec PHP et MySQL
@@ -57,7 +57,7 @@ function Portfolio() {
             <div className="card-body text-center">
               <h5 className="card-title">Restaurant Akira</h5>
               <p className="card-text">Site de vente de produits frais en ligne</p>
-              <a href="#" className="btn btn-primary">Voir le site</a>
+              <a href="/" className="btn btn-primary">Voir le site</a>
             </div>
             <div className="card-footer text-center text-muted small">
               Site réalisé avec WordPress
@@ -72,7 +72,7 @@ function Portfolio() {
             <div className="card-body text-center">
               <h5 className="card-title">Espace bien-être</h5>
               <p className="card-text">Site de vente de produits frais en ligne</p>
-              <a href="#" className="btn btn-primary">Voir le site</a>
+              <a href="/" className="btn btn-primary">Voir le site</a>
             </div>
             <div className="card-footer text-center text-muted small">
               Site réalisé avec LARAVEL
@@ -87,7 +87,7 @@ function Portfolio() {
             <div className="card-body text-center">
               <h5 className="card-title">SEO</h5>
               <p className="card-text">Amélioration du référencement d’un site e-commerce</p>
-              <a href="#" className="btn btn-primary">Voir le site</a>
+              <a href="/" className="btn btn-primary">Voir le site</a>
             </div>
             <div className="card-footer text-center text-muted small">
               Utilisation des outils SEO
@@ -102,7 +102,7 @@ function Portfolio() {
             <div className="card-body text-center">
               <h5 className="card-title">Création d'une API</h5>
               <p className="card-text">Création d’une API RESTFUL publique</p>
-              <a href="#" className="btn btn-primary">Voir le site</a>
+              <a href="/" className="btn btn-primary">Voir le site</a>
             </div>
             <div className="card-footer text-center text-muted small">
               PHP - SYMFONY
@@ -117,7 +117,7 @@ function Portfolio() {
             <div className="card-body text-center">
               <h5 className="card-title">Maquette d’un site web</h5>
               <p className="card-text">Création du prototype d’un site</p>
-              <a href="#" className="btn btn-primary">Voir le site</a>
+              <a href="/" className="btn btn-primary">Voir le site</a>
             </div>
             <div className="card-footer text-center text-muted small">
               Réalisé avec FIGMA
