@@ -1,0 +1,9 @@
+.section-title {
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  border-bottom: 4px solid #0d6efd; /* bleu bootstrap */
+  display: inline-block;
+  padding-bottom: 5px;
+  width: 400px;
+}

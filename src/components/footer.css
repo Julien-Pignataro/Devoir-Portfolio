@@ -1,0 +1,9 @@
+a {
+  text-decoration: none; /* enlève le soulignement */
+  color: inherit; /* hérite de la couleur du parent */
+}
+
+a:hover {
+  text-decoration: none; /* évite que ça revienne au survol */
+  color: #fef0f0; /* exemple : tu peux mettre la couleur que tu veux au hover */
+}
