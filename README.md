@@ -22,13 +22,12 @@ Avant d’installer et de lancer ce projet, assurez-vous d’avoir installé :
 	•	npm (inclus avec Node.js)
 
 Installation
-1. Cloner le dépôt GitHub
-2. Se déplacer dans le dossier du projet
-3. Installer les dépendances avec (npm install)
+1. Cloner le dépôt GitHub : git clone + l'adresse GitHub du projet
+2. Se déplacer dans le dossier du projet : cd + nom du projet
+3. Installer les dépendances avec : npm install
 
 Lancer le projet
-Pour démarrer le serveur de développement:
-npm start
+Pour démarrer le serveur de développement:npm start
 
 Le site sera disponible a l'adresse:
 http://localhost:3000
