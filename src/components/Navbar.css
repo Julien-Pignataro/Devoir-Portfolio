@@ -1,0 +1,21 @@
+/* Met tous les liens en majuscules */
+.navbar .nav-link {
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+/* Lien normal */
+.navbar .nav-link {
+  color: #ffffff;
+}
+
+/* Lien au survol */
+.navbar .nav-link:hover {
+  color: #cccccc; /* nuance de gris clair */
+}
+
+/* Lien actif (page courante) */
+.navbar .nav-link.active {
+  color: #00bcd4; /* par exemple bleu turquoise */
+  font-weight: bold; /* le mettre en gras si tu veux */
+}
