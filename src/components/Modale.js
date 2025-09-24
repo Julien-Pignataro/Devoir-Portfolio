@@ -8,9 +8,9 @@ const ModalGithub = ({ show, handleClose }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (show) { // on ne fetch que quand le modal est ouvert
+    if (show) { 
       setLoading(true)
-      fetch("https://api.github.com/users/github-john-doe") // 👈 remplace par ton user
+      fetch("https://api.github.com/users/github-john-doe") 
         .then(res => res.json())
         .then(data => {
           setData(data);
@@ -38,18 +38,18 @@ const ModalGithub = ({ show, handleClose }) => {
             <img
               src={data.avatar_url}
               alt="Avatar"
-              style={{ width: '200px', height: 'auto', marginRight: '20px' }}
+              style={{ width: '300px', height: 'auto', marginRight: '20px' }}
             />
             <div>
               
               <p className="custom-separator"><strong><a href={data.html_url} target="_blank" rel="noreferrer">
                 <i className="bi bi-person me-2"></i>
                 {data.name ||data.login}</a></strong></p>
-              <p className="custom-separator">📍 {data.location }</p>
-              <p className="custom-separator">{data.bio || "Pas de bio disponible."}</p>
-              <p className="custom-separator">📁 Repositories : {data.public_repos}</p>
-              <p className="custom-separator">👥 Followers : {data.followers}</p>
-              <p className="custom-separator">➕ Following : {data.following}</p>
+              <p className="custom-separator"><i className="bi bi-geo-alt"></i> {data.location }</p>
+              <p className="custom-separator"><i className="bi bi-card-heading"></i> {data.bio || "Pas de bio disponible."}</p>
+              <p className="custom-separator"><i className="bi bi-box"></i> Repositories : {data.public_repos}</p>
+              <p className="custom-separator"><i className="bi bi-people"></i> Followers : {data.followers}</p>
+              <p className="custom-separator"><i className="bi bi-people"></i> Following : {data.following}</p>
               
             </div>
           </>

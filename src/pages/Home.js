@@ -1,7 +1,5 @@
-// src/pages/Home.js
-
 import heroImg from '../images/hero-bg.jpg';
-import aboutImg from '../images/john-doe-about.jpg'; // <--  image pour la section "À propos"
+import aboutImg from '../images/john-doe-about.jpg'; 
 import React, { useState } from 'react';
 import Modale from '../components/Modale';
 
