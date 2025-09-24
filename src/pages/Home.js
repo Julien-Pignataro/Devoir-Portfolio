@@ -1,10 +1,21 @@
 // src/pages/Home.js
-import React from 'react';
+
 import heroImg from '../images/hero-bg.jpg';
-import aboutImg from '../images/john-doe-about.jpg'; // <-- ton image pour la section "À propos"
+import aboutImg from '../images/john-doe-about.jpg'; // <--  image pour la section "À propos"
+import React, { useState } from 'react';
+import Modale from '../components/Modale';
+
+const Home = () => {
+  const [showModal, setShowModal] = useState(false);
+
+  const handleShow = () => setShowModal(true);
+  const handleClose = () => setShowModal(false);
 
 
-function Home() {
+
+
+
+
   return (
     <>
       {/* Section Hero */}
@@ -18,7 +29,8 @@ function Home() {
         <div>
           <h1>Bonjour, je suis John Doe</h1>
           <h3>Développeur web full stack</h3>
-          <button className="btn btn-danger mt-3">En savoir plus</button>
+          <button className="btn btn-danger mt-3"onClick={handleShow}>En savoir plus</button>
+          <Modale show={showModal} handleClose={handleClose} />
         </div>
       </header>
 

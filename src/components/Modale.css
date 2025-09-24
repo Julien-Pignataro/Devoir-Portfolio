@@ -1,0 +1,25 @@
+/* élargir le modal */
+.custom-modal {
+  max-width: 900px; /* élargi le cadre */
+  width: 60%;       /* prend 90% de l’écran */
+}
+
+/* fond noir dans le body */
+.modal-body-custom {
+  background-color: #242424;  /* fond noir */
+  color: #fff;             /* texte en blanc pour être lisible */
+  padding: 10px;
+  border-radius: 1px;
+}
+
+/* Ajoute un trait sous chaque paragraphe */
+.custom-separator {
+  border-bottom: 1px solid #555; /* gris foncé */
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+/* Supprime le dernier trait */
+.custom-separator:last-child {
+  border-bottom: none;
+}
