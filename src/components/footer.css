@@ -5,5 +5,5 @@ a {
 
 a:hover {
   text-decoration: none; /* évite que ça revienne au survol */
-  color: #fef0f0; /* exemple : tu peux mettre la couleur que tu veux au hover */
+  color: #fef0f0; 
 }

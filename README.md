@@ -2,6 +2,40 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Portfolio – John Doe Jeune Développeur
+
+📖 Description du projet
+
+Ce projet est un portfolio web développé en React.js.
+Il a pour but de présenter le profil d’un jeune développeur récemment diplômé, ses compétences, ses projets, ainsi que ses informations de contact.
+Le site inclut :
+	•	Une page d’accueil avec une présentation personnelle
+	•	Une section service / portfolio
+	•	Une section contact avec formulaire / mentions légales 
+	•	Un footer qui reprend les liens entre les différente pages et liens vers les réseaux sociaux
+
+Ce projet a été réalisé pour mettre en pratique des compétences en React, React Router et Bootstrap
+
+Prérequis
+Avant d’installer et de lancer ce projet, assurez-vous d’avoir installé :
+	•	Node.js (version 16 ou supérieure recommandée)
+	•	npm (inclus avec Node.js)
+
+Installation
+1. Cloner le dépôt GitHub
+2. Se déplacer dans le dossier du projet
+3. Installer les dépendances avec (npm install)
+
+Lancer le projet
+Pour démarrer le serveur de développement:
+npm start
+
+Le site sera disponible a l'adresse:
+http://localhost:3000
+
+Projet réalisé par Julien Pignataro - Portfolio d'un jeune développeur récement diplômé.
+
+
 ## Available Scripts
 
 In the project directory, you can run:

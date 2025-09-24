@@ -1,0 +1,25 @@
+
+.custom-modal {
+  max-width: 900px; 
+  width: 55%;       
+}
+
+
+.modal-body-custom {
+  background-color: #242424;  
+  color: #fff;             
+  padding: 10px;
+  border-radius: 1px;
+}
+
+
+.custom-separator {
+  border-bottom: 1px solid #555; 
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+
+.custom-separator:last-child {
+  border-bottom: none;
+}

@@ -16,6 +16,6 @@
 
 /* Lien actif (page courante) */
 .navbar .nav-link.active {
-  color: #00bcd4; /* par exemple bleu turquoise */
-  font-weight: bold; /* le mettre en gras si tu veux */
+  color: #cccccc; 
+  font-weight: bold; 
 }
